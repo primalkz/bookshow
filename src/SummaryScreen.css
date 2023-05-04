@@ -1,0 +1,72 @@
+.summary-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  }
+  
+  .navbar {
+    background-color: #0077be;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .summary-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .summary-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .summary-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .summary-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .summary-card li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .summary-card span {
+    font-weight: bold;
+  }
+  
+  .summary-card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF6B6B;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .summary-card button:hover {
+    background-color: #FF4D4D;
+  }
+  
